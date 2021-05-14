@@ -10,3 +10,11 @@
 5.Java 内存分配策略？多个线程同时请求内存，如何分配？
 ```
 
+### 优化
+
+```
+-XX:+UseConcMarkSweepGC   -XX:SurvivorRatio=8
+```
+
+
+
